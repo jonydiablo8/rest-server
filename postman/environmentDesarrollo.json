@@ -1,0 +1,14 @@
+{
+	"id": "4e3295e0-b99f-4ed8-acf4-60248fefc249",
+	"name": "RestServer - Desarrollo",
+	"values": [
+		{
+			"key": "url",
+			"value": "http://localhost:8080",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-02-21T19:45:39.134Z",
+	"_postman_exported_using": "Postman/8.0.6"
+}

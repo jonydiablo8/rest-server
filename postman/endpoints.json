@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "f130b97d-b3ea-4700-8443-df349efd80a7",
-		"name": "RestServer-Node",
+		"_postman_id": "c26882c3-036e-4502-bf69-32881547d049",
+		"name": "RestServer-Node-Mongo-Express",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -30,7 +30,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"nombre\": \"test 1\",\r\n    \"google\": true,\r\n    \"nuevoCampo\": true,\r\n    \"correo\": \"test1@test.com\",\r\n    \"password\": \"123456\",\r\n    \"rol\": \"USER_ROLE\"\r\n}",
+					"raw": "{\r\n    \"nombre\": \"test 1\",\r\n    \"google\": true,\r\n    \"nuevoCampo\": true,\r\n    \"correo\": \"test1@test.com\",\r\n    \"password\": \"123456\",\r\n    \"rol\": \"PEPE_ROLE\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

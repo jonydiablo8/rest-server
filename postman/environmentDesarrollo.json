@@ -1,6 +1,6 @@
 {
-	"id": "4e3295e0-b99f-4ed8-acf4-60248fefc249",
-	"name": "RestServer - Desarrollo",
+	"id": "2c887a98-f801-42d4-bd83-9f6ccac1cd43",
+	"name": "Desarrollo - RestServer-Node-Mongo-Express",
 	"values": [
 		{
 			"key": "url",
@@ -9,6 +9,6 @@
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2021-02-21T19:45:39.134Z",
+	"_postman_exported_at": "2021-02-22T22:03:39.062Z",
 	"_postman_exported_using": "Postman/8.0.6"
 }

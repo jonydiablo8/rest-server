@@ -39,7 +39,7 @@ const usuariosPost = async(req, res = response) => {
     await usuario.save();
 
     res.json({
-        usuario
+        usuario //se aplica el metodo toJSON implicitamente (se ejecutara el metodo toJSON del modelo de usuario)
     });
 }
 

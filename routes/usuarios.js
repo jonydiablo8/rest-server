@@ -22,7 +22,7 @@ router.put('/:id', usuariosPut);
 router.post('/', [
     check('nombre', 'El nombre es obligatorio').not().isEmpty(),
     check('password', 'El password debe de ser más de 6 letras').isLength({ min: 6 }),
-    check('correo').custom(emailExiste)
+    check('correo').custom(emailExiste),
     // check('rol', 'No es rol permitido').isIn(['ADMIN_ROLE','USER_ROLE']),
     check('rol').custom(esRoleValido), //equivalente a: check('rol').custom( (rol) => esRoleValido(rol) ),
     validarCampos
